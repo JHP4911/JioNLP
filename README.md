@@ -16,21 +16,18 @@
 ### &emsp;&emsp; ——JioNLP：中文 NLP 预处理工具包 A Python Library for Chinese NLP Preprocessing
 ### &emsp;&emsp; ```pip install -i https://test.pypi.org/simple/ jionlp```
 
-- 做 NLP 任务，需要清洗、过滤语料？用 JioNLP
-- 做 NLP 任务，需要做信息抽取？用 JioNLP
-- 做 NLP 任务，需要做数据增强？用 JioNLP
-- 做 NLP 任务，需要给模型添加偏旁、拼音、词典、繁体转换信息？用 JioNLP
-#### 总之，JioNLP 提供 NLP 任务预处理功能，准确、高效、零使用门槛，并提供一步到位的查阅入口。
-
-#### 功能主要包括：文本清洗，去除HTML标签、异常字符、冗余字符，转换全角字母、数字、空格为半角，抽取及删除E-mail及域名、电话号码、QQ号、括号内容、身份证号、IP地址、URL超链接、货币金额与单位，解析身份证号信息、手机号码归属地、座机区号归属地、手机号码运营商，按行快速读写文件，（多功能）停用词过滤，（优化的）分句，地址解析，新闻地域识别，繁简体转换，汉字转拼音，汉字偏旁、字形、四角编码拆解，基于词典的情感分析，色情数据过滤，反动数据过滤，关键短语抽取，抽取式文本摘要，成语接龙，成语词典、歇后语词典、新华字典、新华词典、停用词典、中国地名词典、世界地名词典，基于词典的NER，NER的字、词级别转换，NER的entity和tag格式转换，NER模型的预测阶段加速并行工具集，NER标注和模型预测的结果差异对比，NER标注数据集分割与统计，文本分类标注数据集的分割与统计，回译数据增强。
-
+- Do NLP tasks need to clean and filter the corpus? Use JioNLP
+Do NLP tasks need to do information extraction? Use JioNLP
+Do NLP tasks, need to do data enhancement? Use JioNLP
+Do NLP tasks need to add radicals, pinyin, dictionary, and traditional Chinese conversion information to the model? Use JioNLP
+In short, JioNLP provides NLP task preprocessing function, which is accurate, efficient, and has zero usage threshold, and provides one-step access to the site.
+The functions mainly include: text cleaning, removing HTML tags, abnormal characters, redundant characters, converting full-width letters, numbers, and spaces to half-width, extracting and deleting E-mail and domain names, phone numbers, QQ numbers, parentheses, ID numbers, IP address, URL hyperlink, currency amount and unit, parse ID number information, mobile phone number attribution, landline area code attribution, mobile phone number operator, fast read and write files by line, (multi-function) stop word filtering, ( Optimized) clauses, address analysis, news location recognition, traditional and simplified conversion, Chinese characters to pinyin, Chinese character radicals, glyphs, four-corner coding disassembly, dictionary-based sentiment analysis, pornographic data filtering, reactionary data filtering, key phrase extraction, extraction -Style text summary, idiom solitaire, idiom dictionary, allegorical dictionary, Xinhua dictionary, Xinhua dictionary, disabled dictionary, Chinese place name dictionary, world place name dictionary, dictionary-based NER, NER word and word level conversion, NER entity and tag format Conversion, the prediction stage of the NER model accelerates the parallel tool set, the comparison of the results of NER annotation and model prediction, the segmentation and statistics of NER annotation data set, the segmentation and statistics of text classification annotation data set, and the enhancement of back translation data.
+Update 2020-12-28
+New Find Help
+jio.help
+If you don't know what functions JioNLP has, you can search by typing some keywords according to the command line prompts.
 
 #### Update 2020-12-28
-## 新增 [查找帮助](https://github.com/dongrixinyu/JioNLP/wiki/Gadget-说明文档#user-content-查找帮助)
-
-#### jio.help
-
-若不知道 JioNLP 有哪些功能，可根据命令行提示键入若干关键词做搜索。
 
 ```
 >>> import jionlp as jio
